@@ -19,6 +19,6 @@ function calculatePermeterAndAreaOfRectangle() {
   const HeightOfTriangle = (baseOfTriangle + heightOfTriangle) + 13.03
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + areaOfTriangle + ' mm³'
+  document.getElementById('area').innerHTML = 'Volume is: ' + areaOfTriangle + ' mm³'
   document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeterOfRectangle + 'mm³'
 }
